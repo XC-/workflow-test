@@ -27,6 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        uses: XC-/shareable/path1@main
+        uses: XC-/action-test/shareable/path1@main
         with:
           who-to-greet: 'Mona the Octocat'
