@@ -32,4 +32,5 @@ jobs:
       - build
     steps:
       - name: foobar
-        run: ls -la
+        run: export FOOBAR="laksjd"
+      - run: echo "$FOOBAR"
